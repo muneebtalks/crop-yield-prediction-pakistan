@@ -20,7 +20,6 @@ except:
 def home(request):
     return render(request, 'home.html')
 
-@login_required
 def predict(request):
     if model is None:
         return render(request, 'error.html', {'message': 'Model not loaded. Run train_model.py first!'})

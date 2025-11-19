@@ -1,28 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Crop Yield Prediction - Pakistan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PK CropAid Pakistan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background: linear-gradient(to right, #065f46, #86efac); color: white; font-family: Arial; }
-        .container { margin-top: 10%; text-align: center; }
-        .btn { margin: 10px; }
+        body {
+            background: linear-gradient(135deg, #065f46, #86efac);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .hero-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .btn-report {
+            font-size: 1.8rem;
+            padding: 20px 50px;
+            border-radius: 50px;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="display-3">🇵🇰 CropAid Pakistan</h1>
-        <p class="lead">XGBoost Crop Yield Prediction using FAO Data (1961–2023)</p>
-        <h3>Welcome{% if user.is_authenticated %}, {{ user.username }}!{% endif %}</h3>
-        {% if user.is_authenticated %}
-            <a href="/predict/" class="btn btn-light btn-lg">Predict Yield</a>
-            <a href="/logout/" class="btn btn-outline-light btn-lg">Logout</a>
-        alternatif
-            <a href="/login/" class="btn btn-light btn-lg">Login</a>
-            <a href="/register/" class="btn btn-outline-light btn-lg">Register</a>
-        {% endif %}
-        <hr>
-        <small>Model RMSE: 964 kg/ha • Crops: Wheat, Maize, Potatoes, Sorghum</small>
+    <div class="hero-card">
+        <h1 class="display-3 fw-bold">PK CropAid Pakistan 🇵🇰</h1>
+        <p class="lead fs-3 mt-3">XGBoost Crop Yield Prediction</p>
+        <p class="fs-5">Using Official FAO Data (1961–2023)</p>
+
+        <hr class="my-5">
+
+        <p class="fs-4">Get instant yield report for:</p>
+        <p class="fs-5 fw-bold">Wheat • Maize • Potatoes • Sorghum</p>
+
+        <a href="/predict/" class="btn btn-light btn-report shadow-lg">
+            Generate Report
+        </a>
+
+        <hr class="my-5">
+        <small>Model Accuracy: RMSE 964 kg/ha • No login needed</small>
     </div>
 </body>
 </html>

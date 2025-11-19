@@ -13,7 +13,6 @@
 https://muneebtalks.pythonanywhere.com 
 
 ## Features
-- User registration & login system
 - Responsive Bootstrap 5 design (mobile-friendly)
 - XGBoost Regressor model trained on FAO Pakistan crop data
 - Predict yield for Wheat, Maize (corn), Potatoes, Sorghum
