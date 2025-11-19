@@ -2,6 +2,9 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+SECRET_KEY = 'django-insecure-9@5q2!8k4p7^x2m8z3v9b8n5r2t6y4u7i0o3p5l2k4j6h8g7f6d5s4a3'
+
+DEBUG = True   # ← ADD THIS LINE
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -10,9 +13,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_bootstrap5',  # ← CORRECT    'prediction',
-    'prediction',   # ← add this
-    'accounts',        # ← add this
+    'django_bootstrap5',
+    'prediction',
+    'accounts',
 ]
 
 MIDDLEWARE = [
