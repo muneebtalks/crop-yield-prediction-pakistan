@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Yield</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background: #ecfccb;">
+    <div class="container mt-5">
+        <h2>Predict Crop Yield</h2>
+        <form method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label>Crop</label>
+                <select name="crop" class="form-select">
+                    {% for crop in crops %}
+                        <option>{{ crop }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="mb-3">
+                <label>Year</label>
+                <input type="number" name="year" class="form-control" value="2025" required>
+            </div>
+            <div class="mb-3">
+                <label>Area (hectares)</label>
+                <input type="number" name="area" class="form-control" value="100" step="0.1" required>
+            </div>
+            <button type="submit" class="btn btn-success">Predict</button>
+            <a href="/" class="btn btn-secondary">Back</a>
+        </form>
+    </div>
+</body>
+</html>
