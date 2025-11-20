@@ -28,6 +28,11 @@ https://muneebtalks.pythonanywhere.com
 - Data Source: FAO Official Crop Production Data (1961–2023)
 
 ## Quick Start (Local)
+![Screenshot_20-11-2025_105213_127 0 0 1](https://github.com/user-attachments/assets/1cc2999e-ba40-4316-8682-39ec5b21286f)
+
+![Screenshot_20-11-2025_105225_127 0 0 1](https://github.com/user-attachments/assets/ff0df0b9-4e52-4e3a-89d1-85664abfd2bb)
+
+![Screenshot_20-11-2025_105240_127 0 0 1](https://github.com/user-attachments/assets/c5af74bb-ff47-44cb-bab0-869555007f79)
 
 ```bash
 git clone https://github.com/muneebtalks/crop-yield-prediction-pakistan.git
