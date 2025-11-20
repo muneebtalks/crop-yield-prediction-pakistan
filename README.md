@@ -9,8 +9,6 @@
 
 > A full-stack Django web application that predicts crop yield (kg/ha) and total production (tonnes) for major Pakistani crops using official FAO data (1961–2023) and XGBoost machine learning model.
 
-## Live Demo
-https://muneebtalks.pythonanywhere.com 
 
 ## Features
 - Responsive Bootstrap 5 design (mobile-friendly)
@@ -34,13 +32,3 @@ https://muneebtalks.pythonanywhere.com
 
 ![Screenshot_20-11-2025_105240_127 0 0 1](https://github.com/user-attachments/assets/c5af74bb-ff47-44cb-bab0-869555007f79)
 
-```bash
-git clone https://github.com/muneebtalks/crop-yield-prediction-pakistan.git
-cd crop-yield-prediction-pakistan/crop-yield-pk
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python train_model.py          # trains & saves XGBoost model
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
