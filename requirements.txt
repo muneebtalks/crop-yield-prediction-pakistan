@@ -1,8 +1,9 @@
 Django>=4.2
 gunicorn
+whitenoise
+django-bootstrap5
 xgboost
 scikit-learn
 joblib
 pandas
 numpy
-whitenoise   # important for Render static files
