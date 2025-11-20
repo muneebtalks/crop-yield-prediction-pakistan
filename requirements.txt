@@ -1,0 +1,8 @@
+Django>=4.2
+gunicorn
+xgboost
+scikit-learn
+joblib
+pandas
+numpy
+whitenoise   # important for Render static files

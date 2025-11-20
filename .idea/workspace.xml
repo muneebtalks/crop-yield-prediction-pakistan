@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="883efc93-102a-4901-a151-1b598fb6833e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crop-yield-pk/render.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crop-yield-pk/prediction/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop-yield-pk/prediction/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crop-yield-pk/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/crop-yield-pk/templates/result.html" afterDir="false" />
     </list>
@@ -91,7 +90,7 @@
       <workItem from="1763539585670" duration="131000" />
       <workItem from="1763539719716" duration="10239000" />
       <workItem from="1763568429301" duration="8000" />
-      <workItem from="1763613643046" duration="1086000" />
+      <workItem from="1763613643046" duration="3027000" />
     </task>
     <servers />
   </component>

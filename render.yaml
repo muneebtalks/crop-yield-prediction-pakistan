@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: crop-yield-pakistan
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py migrate --noinput
+      python manage.py collectstatic --noinput
+    startCommand: gunicorn cropproject.wsgi:application --bind 0.0.0.0:$PORT
+    envVars:
+      PYTHON_VERSION: 3.11.6
+      DJANGO_ALLOWED_HOSTS: "*"
+      DJANGO_SECRET_KEY: "django-insecure-change-this-in-production"
+      DEBUG: "False"
