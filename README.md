@@ -25,6 +25,30 @@
 - Database: SQLite (production-ready with PostgreSQL possible)
 - Data Source: FAO Official Crop Production Data (1961–2023)
 
+## Data Source
+- [Pakistan crop production analysis FAOSTAT_data](https://www.kaggle.com/code/datascientist97/pakistan-crop-production-analysis/)
+
+## 🚀 Quick Start (Local) – Ready in 30 Seconds!
+
+
+### One-command setup:
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/pakistan-crop-yield-predictor.git
+cd pakistan-crop-yield-predictor
+
+# 2. Create & activate virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate          # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run migrations & start server
+python manage.py migrate
+python manage.py runserver
+
 ## Quick Start (Local)
 ![Screenshot_20-11-2025_105213_127 0 0 1](https://github.com/user-attachments/assets/1cc2999e-ba40-4316-8682-39ec5b21286f)
 
