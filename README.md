@@ -28,8 +28,12 @@
 ## Data Source
 - [Pakistan crop production analysis FAOSTAT_data](https://www.kaggle.com/code/datascientist97/pakistan-crop-production-analysis/)
 
-## 🚀 Quick Start (Local) – Ready in 30 Seconds!
+![Screenshot_20-11-2025_105213_127 0 0 1](https://github.com/user-attachments/assets/059639be-afb7-4d68-b34c-af443e0b70bf)
+![Screenshot_20-11-2025_105225_127 0 0 1](https://github.com/user-attachments/assets/f90f27e7-eec9-45db-ae2b-0ad4d7a9e0f8)
+![Screenshot_20-11-2025_105240_127 0 0 1](https://github.com/user-attachments/assets/ad3d471d-fb28-49e0-a567-6c44edac5772)
 
+
+## 🚀 Quick Start (Local) – Ready in 30 Seconds!
 
 ### One-command setup:
 
@@ -49,10 +53,4 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-## Quick Start (Local)
-![Screenshot_20-11-2025_105213_127 0 0 1](https://github.com/user-attachments/assets/1cc2999e-ba40-4316-8682-39ec5b21286f)
-
-![Screenshot_20-11-2025_105225_127 0 0 1](https://github.com/user-attachments/assets/ff0df0b9-4e52-4e3a-89d1-85664abfd2bb)
-
-![Screenshot_20-11-2025_105240_127 0 0 1](https://github.com/user-attachments/assets/c5af74bb-ff47-44cb-bab0-869555007f79)
 
